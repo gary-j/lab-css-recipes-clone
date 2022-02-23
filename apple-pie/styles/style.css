@@ -24,7 +24,7 @@ header .container h1 {
 }
 
 section {
-  margin: 0 6em;
+  margin: 0em 6em;
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
@@ -42,7 +42,16 @@ section img {
   font-weight: 400;
 }
 
-.section1,
+/* .section1,
 .ingredients {
   border-bottom: 2px solid green;
+} */
+.gradient {
+  width: 50%;
+  margin: auto;
+  /* padding: 8px 0; */
+  border-width: 3px 0 0;
+  border-top-style: solid;
+  border-image: linear-gradient(139deg, #f2b04d, #6c4c27, #efefef, #62580c) 3;
+  margin-bottom: 2em;
 }
