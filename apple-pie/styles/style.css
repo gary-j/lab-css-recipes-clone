@@ -7,6 +7,10 @@ li {
   font-size: 1em;
   font-weight: 300;
 }
+li {
+  list-style: circle;
+  line-height: 1.5em;
+}
 
 header .container {
   width: 100%;
@@ -21,6 +25,7 @@ header .container h1 {
   margin: auto;
   /* vertical-align: middle; */
   color: white;
+  letter-spacing: 0.1em;
 }
 
 section {
@@ -36,7 +41,7 @@ section img {
 
 .section1 p {
   display: block;
-  /* width: 50%; */
+  width: 70%;
   margin: 2em auto;
   text-align: center;
   font-weight: 400;
